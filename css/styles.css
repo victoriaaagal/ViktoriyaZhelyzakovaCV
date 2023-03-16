@@ -2,27 +2,29 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Signika&display=swap');
 /* Styles for the body */
 
+
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	font-family: 'Lexend Deca', sans-serif;
+	color: #000000;
+	background-color: #cc7ba98e;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #f61591;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #fe9dd280;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #f6159167;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +38,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #f61591;
 }
 
 .biography-details li, .skill-list li {
@@ -49,3 +51,43 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+
+/*My classes */
+
+.heading-font {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 10vh;
+	text-shadow: 5px 5px pink;
+ }
+
+ .border-info {
+	border: 3px solid purple !important;
+ }
+
+ .bg-warning {
+	background-color: #f61591 !important;
+ }
+
+ h3 {
+	text-align: center;
+}
+
+a {
+	color: purple;
+	background-color: 
+  }
+
+
+  h2 {
+	font-weight: bold;
+	text-decoration: underline wavy purple 
+  }
+
+  h3 {
+    font-weight: bold;
+	text-decoration: underline;  
+    text-decoration-color: #f61591;  
+    text-decoration-style: double; 
+  }
+
